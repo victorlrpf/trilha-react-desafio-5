@@ -27,7 +27,7 @@ export default function Index({ posts, globalData }) {
                 as={`/posts/${post.id}`}
                 href={`/posts/${post.id}`}
               >
-                <a className="py-6 lg:py-10 px-6 lg:px-16 block focus:outline-none focus:ring-4">
+                <a className="py-6 lg:py-10 px-6 lg:px-16 block focus:outline-none focus:ring-4" target='_blank'>
                   {post.created_ate && (
                     <p className="uppercase mb-3 font-bold opacity-60">
                       {post.created_at}

@@ -3,6 +3,8 @@ import {
   getPostBySlug,
 } from '../../utils/mdx-utils';
 
+// import { getPosts } from '../utils/mdx-utils';
+
 import { MDXRemote } from 'next-mdx-remote';
 import Head from 'next/head';
 import Link from 'next/link';
